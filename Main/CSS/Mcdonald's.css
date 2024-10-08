@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding-left: 10px ;
+    padding-right: 10px;
+    
+}
+.logo{
+    float: left;
+}
+.prenavbar{
+    column-gap: 20px;
+    display: flex ;
+    gap: 500px;
+    align-items: center;
+}
+.prenavbar1{
+    display: flex ;
+    gap: 20px;
+    align-items: center;
+}
+.prenavbar2{
+      display: flex ;
+    gap: 20px;
+    align-items: center;
+}
+.navbar {
+    display: flex ;
+    gap: 30px;
+    
+    align-items: center;
+    list-style: none;
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+/* cards starts */
+/* Container for Cards */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* 3 columns */
+    gap: 20px;  /* Space between cards */
+    padding: 20px;
+  }
+  
+  /* Individual Card */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Card Image */
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 15px;
+   padding-bottom: 20px;
+   align-items: center;
+   
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    color: red;
+    font-weight: 700;
+    font-size: x-large;
+  }
+  
+  .card-text {
+    font-size: 1em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    justify-content: space-between;
+    color: #555;
+  }
+  
+  .card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .card-button:hover {
+    background-color: #ff4500;
+  }
+  /* cards ends */
+  footer {
+  background-color: white;
+    padding: 20px 0;
+    row-gap: 20px;
+  
+  }
+  
+  .social-media a {
+    row-gap: 30px;
+    margin: 0px;
+    text-decoration: none;
+    color: black; /* Icon color */
+    font-size: 20px; /* Icon size */
+  }
+  
+  .social-media a:hover {
+    color: #ff0000; /* Change color on hover, adjust for each social media brand if needed */
+
+  }
+  .list{
+    font-weight: 600;
+    
+  }
+ 
